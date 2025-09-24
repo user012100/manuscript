@@ -17,3 +17,5 @@
   <li>Created <code>README.md</code> and <code>LICENSE</code> in the main repository.</li>
   <li>Wrapped every paragraph individually using <code>p</code> tag.</li>
 </ul>
+<h2>Part 2: Styled Markup</h2>
+<p>Coming soon!</p>
