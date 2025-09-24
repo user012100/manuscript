@@ -15,4 +15,5 @@
   <li>Added <code>em</code> tag to emphasize certain words.</li>
   <li>Added my response to the text.</li>
   <li>Created <code>README.md</code> and <code>LICENSE</code> in the main repository.</li>
+  <li>Wrapped every paragraph individually using <code>p</code> tag.</li>
 </ul>
