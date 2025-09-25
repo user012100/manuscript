@@ -25,4 +25,8 @@
   <li>Added copyright symbol to footer using Unicode.</li>
 </ul>
 <h2>Part 2: Styled Markup</h2>
-<p>Coming soon!</p>
+<p>Changes in this version:</p>
+<ul>
+  <li>Added a <a href="https://github.com/elad2412/the-new-css-reset">CSS reset stylesheet</a> to reset user-agent styles.</li>
+  <li>Created <code>style.css</code> in the main repository.</li>
+</ul>
