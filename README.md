@@ -22,6 +22,7 @@
 <ul>
   <li>Removed <code>br</code> tags from main text.</li>
   <li>Wrapped every paragraph individually using <code>p</code> tag.</li>
+  <li>Added copyright symbol to footer using Unicode.</li>
 </ul>
 <h2>Part 2: Styled Markup</h2>
 <p>Coming soon!</p>
