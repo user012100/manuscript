@@ -18,7 +18,7 @@
   <li>Added an external link to the original text using an absolute URL in the <code>a</code> tag.</li>
   <li>Created <code>README.md</code> and <code>LICENSE.md</code> in the main repository.</li>
 </ul>
-<p>Additional changes:</p>
+<p>Additional changes after feedback:</p>
 <ul>
   <li>Removed <code>br</code> tags from main text.</li>
   <li>Wrapped every paragraph individually using <code>p</code> tag.</li>
