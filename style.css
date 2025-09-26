@@ -13,8 +13,14 @@ body {
 h1 {
 	font-size: 5.125rem;
 	font-weight: 700;
+	color: #E93323;
 }
 
 h2 {
 	font-size: 
+}
+
+/* emphasis */
+em.main-title {
+	color: #B93026;
 }
