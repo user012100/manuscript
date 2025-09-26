@@ -39,7 +39,21 @@ p {
 	max-width: 60ch;
 }
 
+/* footer */
+footer {
+	margin-block-start: 2rem;
+}
 
+summary {
+	font-weight: 400;
+	color: #F3BC06;
+}
+
+summary:hover {
+	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+	cursor: pointer;
+	color: #EAAC00;
+}
 
 /* links */
 a {
@@ -56,6 +70,12 @@ ul {
 	margin-block-start: 2rem;
 	/* indentation */
 	padding-left: 4rem;
+}
+
+/* chapter and page number parenthicals */
+.chapter {
+	font-weight: 500;
+	color: #B93026;
 }
 
 /* emphasis */
