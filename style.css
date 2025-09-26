@@ -49,6 +49,13 @@ a:hover {
 	color: #EAAC00;
 }
 
+/* lists */
+ul {
+	margin-block-start: 2rem;
+	/* indentation */
+	padding-left: 4rem;
+}
+
 /* emphasis */
 em.underline {
 	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration#values */
