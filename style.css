@@ -39,7 +39,21 @@ p {
 	max-width: 60ch;
 }
 
+/* links */
+a {
+	font-weight: 400;
+	color: #F3BC06;
+}
+
+a:hover {
+	color: #EAAC00;
+}
+
 /* emphasis */
+em.underline {
+	text-decoration-line: underline;
+}
+
 em.thoughts {
 	color: #E93323;
 }
