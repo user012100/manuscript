@@ -4,20 +4,23 @@
 /* base styles */
 body {
 	font-family: "Outfit", sans-serif;
+	font-weight: 300;
 	font-size: 1.125rem;
 	padding: 3rem;
-	font-weight: 300;
+	background-color: #FAFAFA;
 }
 
 /* headings */
 h1 {
-	font-size: 5.125rem;
 	font-weight: 700;
+	font-size: 5.125rem;
 	color: #E93323;
 }
 
 h2 {
-	font-size: 
+	font-weight: 500;
+	font-size: 2em;
+	color: #444444;
 }
 
 /* emphasis */
