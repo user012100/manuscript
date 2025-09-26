@@ -39,6 +39,8 @@ p {
 	max-width: 60ch;
 }
 
+
+
 /* links */
 a {
 	font-weight: 400;
@@ -67,12 +69,14 @@ em.underline {
 }
 
 em.numbers {
-	background-color: #B0BBEF;
+	background-color: #C9D0F2;
+	padding: 0.1em;
 }
 
 em.fractions {
 	/* fixing the fractions from not being formatted using my main font */
 	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
 }
 
 em.lighter-red {
