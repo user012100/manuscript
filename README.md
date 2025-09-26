@@ -32,4 +32,16 @@
 <ul>
   <li>Added a <a href="https://github.com/elad2412/the-new-css-reset">CSS reset stylesheet</a> named <code>reset.css</code> to reset user-agent styles.</li>
   <li>Created <code>style.css</code> in the main repository.</li>
+  <li>Imported <a href="https://fonts.google.com/specimen/Outfit">Outfit font family</a> from Google Fonts using <code>@import</code>.</li>
+  <li>Changed <code>body</code>background color to <code>#FAFAFA</code>.</li>
+  <li>Added base styles for the <code>body</code>, including <code>font-family</code>, <code>font-weight</code>, <code>font-size</code>, <code>padding</code>, <code>line-height</code>.</li>
+  <li>Added different <code>font-weight</code>, <code>font-size</code>, <code>color</code> for <code>h1</code>, <code>h2</code>, <code>h3</code>.</li>
+  <li>Added paragraph breaks using <code>margin-block-start</code> for <code>p</code> and other elements.</li>
+  <li>Changed <code>max-width</code> of text in <code>p</code> to be limited to 60 characters.</li>
+  <li>Added <code>font-weight</code> and <code>color</code> to <code>footer</code>, <code>summary</code> and <code>a</code> as well as different colors for <code>summary:hover</code> and <code>a:hover</code>.</li>
+  <li>Added indentation for <code>ul</code> using <code>padding-left</code>.</li>
+  <li>Added some <code>em</code> tags and classes to certain elements in <code>index.html</code>.</li>
+  <li>Added <code>text-decoration</code> styles to underlined elements.</li>
+  <li>Added <code>background-color</code> and <code>padding</code> to certain number blocks.</li>
+  <li>Changed font to web-safe Geneva in emphasized number blocks due to Unicode fractions not displaying properly using Outfit font.</li>
 </ul>
