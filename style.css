@@ -51,17 +51,22 @@ a:hover {
 
 /* emphasis */
 em.underline {
+	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration#values */
 	text-decoration-line: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: #ED6A5E;
+	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset */
+	text-underline-offset: 0.125rem;
 }
 
-em.thoughts {
+em.lighter-red {
 	color: #E93323;
 }
 
-em.harmony {
+em.lighter-blue {
 	color: #627CEC;
 }
 
-em.quantity {
+em.darker-blue {
 	color: #364CB1;
 }
