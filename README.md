@@ -23,7 +23,7 @@
   <li>Removed <code>br</code> tags from main text.</li>
   <li>Wrapped every paragraph individually using <code>p</code> tag.</li>
   <li>Added copyright symbol to footer using Unicode.</li>
-  <li>Removed <code>h2</code> and reordered headings.</li>
+  <li>Removed <code>h2</code> and reordered headings (now there is only <code>h1</code>, <code>h2</code>, <code>h3</code>).</li>
   <li>Added <code>aside</code> element for chapter and page number markers, with <code>a</code> links that direct to the specific page.</li>
   <li>Moved the link to the original text from <code>main</code> to <code>footer</code>, added appendix using <code>details</code> and <code>summary</code> with <code>a</code> links to the course site and original text.</li>
 </ul>
