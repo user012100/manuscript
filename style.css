@@ -9,13 +9,14 @@ body {
 	/* to calculate rem size i just took the px sizes of the text in figma and divided them by 16, so 82px ÷ 16 = 1.125rem */
 	padding: 3rem;
 	background-color: #FAFAFA;
+	line-height: 1.55;
 }
 
 /* headings */
 h1 {
 	font-weight: 700;
 	font-size: 5.125rem;
-	color: #E93323;
+	color: #B93026;
 }
 
 h2 {
@@ -27,11 +28,12 @@ h2 {
 h3 {
 	font-weight: 500;
 	font-size: 1.5rem;
+	color: #444444;
 }
 
 /* emphasis */
-em.main-title {
-	color: #B93026;
+em.thoughts {
+	color: #E93323;
 }
 
 em.harmony {
