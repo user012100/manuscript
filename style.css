@@ -67,7 +67,12 @@ em.underline {
 }
 
 em.numbers {
-	
+	background-color: #B0BBEF;
+}
+
+em.fractions {
+	/* fixing the fractions from not being formatted using my main font */
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 em.lighter-red {
