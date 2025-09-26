@@ -25,7 +25,7 @@
   <li>Added copyright symbol to footer using Unicode.</li>
   <li>Removed <code>h2</code> and reordered headings.</li>
   <li>Added <code>aside</code> element for chapter and page number markers, with <code>a</code> links that direct to the specific page.</li>
-  <li>Moved link to the original text from <code>main</code> to <code>footer</code>, added appendix using <code>details</code> and <code>summary</code> with links to the course site and original text.</li>
+  <li>Moved the link to the original text from <code>main</code> to <code>footer</code>, added appendix using <code>details</code> and <code>summary</code> with <code>a</code> links to the course site and original text.</li>
 </ul>
 <h2>Part 2: Styled Markup</h2>
 <p>Changes in this part:</p>
