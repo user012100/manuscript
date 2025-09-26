@@ -1,7 +1,7 @@
 <h1><a href="https://user012100.github.io/manuscript/">Project 1: Manuscript</a></h1>
 <p>A project responding to <a href="https://archive.org/details/interaction-of-color-50th-anniversary-edition/page/38/mode/2up">Chapter 16</a> of Interaction of Color by Josef Albers, involving typesetting and replying to the text as a web page.</p>
 <h2>Part 1: Semantic Dom</h2>
-<p>Changes in this version:</p>
+<p>Changes in this part:</p>
 <ul>
   <li>Created <code>index.html</code> in the main repository.</li>
   <li>Added <code>html</code> tag.</li>
@@ -25,4 +25,8 @@
   <li>Added copyright symbol to footer using Unicode.</li>
 </ul>
 <h2>Part 2: Styled Markup</h2>
-<p>Coming soon!</p>
+<p>Changes in this part:</p>
+<ul>
+  <li>Added a <a href="https://github.com/elad2412/the-new-css-reset">CSS reset stylesheet</a> named <code>reset.css</code> to reset user-agent styles.</li>
+  <li>Created <code>style.css</code> in the main repository.</li>
+</ul>
