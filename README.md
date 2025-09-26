@@ -14,7 +14,7 @@
   <li>Added fractions using Unicode.</li>
   <li>Added <code>em</code> tag to emphasize certain words.</li>
   <li>Added my response to the text.</li>
-  <li>Added IDs for the 2 articles and added relative URLs to the <code>nav</code> links using <code>#ID</code> in the <code>a</code> tag.</li>
+  <li>Added IDs for the 2 articles and added relative URLs to the <code>nav</code> links using <code>ID</code> attribute in the <code>a</code> tag.</li>
   <li>Added an external link to the original text using an absolute URL in the <code>a</code> tag.</li>
   <li>Created <code>README.md</code> and <code>LICENSE.md</code> in the main repository.</li>
 </ul>
