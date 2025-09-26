@@ -41,6 +41,7 @@
   <li>Added <code>font-weight</code> and <code>color</code> to <code>footer</code>, <code>summary</code> and <code>a</code> as well as different colors for <code>summary:hover</code> and <code>a:hover</code>.</li>
   <li>Added indentation for <code>ul</code> using <code>padding-left</code>.</li>
   <li>Added some <code>em</code> tags and classes to certain elements in <code>index.html</code>.</li>
+  <li>Changed <code>color</code> of <code>em</code> tags using classes.</li>
   <li>Added <code>text-decoration</code> styles to underlined elements.</li>
   <li>Added <code>background-color</code> and <code>padding</code> to certain number blocks.</li>
   <li>Changed font to web-safe Geneva in emphasized number blocks due to Unicode fractions not displaying properly using Outfit font.</li>
