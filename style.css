@@ -6,7 +6,7 @@ body {
 	font-family: "Outfit", sans-serif;
 	font-weight: 300;
 	font-size: 1.125rem;
-	/* to calculate rem size i just took the px sizes of the text in figma and divided them by 16, so 82px ÷ 16 = 1.125rem */
+	/* to calculate rem size i just took the px sizes of the text in figma and divided them by 16, so 18px ÷ 16 = 1.125rem */
 	padding: 3rem;
 	background-color: #FAFAFA;
 	line-height: 1.55;
@@ -91,6 +91,7 @@ em.underline {
 em.numbers {
 	background-color: #C9D0F2;
 	padding: 0.05em;
+	font-size: 0.8em;
 }
 
 em.fractions {
