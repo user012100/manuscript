@@ -2,11 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 /* base styles */
+:root {
+	font-size: 125%;
+}
+
 body {
 	font-family: "Outfit", sans-serif;
 	font-weight: 300;
-	font-size: 1.125rem;
-	/* to calculate rem size i just took the px sizes of the text in figma and divided them by 16, so 18px ÷ 16 = 1.125rem */
+	font-size: 1rem;
 	padding: 3rem;
 	background-color: #FAFAFA;
 	line-height: 1.55;
@@ -15,20 +18,20 @@ body {
 /* headings */
 h1 {
 	font-weight: 700;
-	font-size: 5.125rem;
+	font-size: 4rem;
 	color: #B93026;
 }
 
 h2 {
 	font-weight: 500;
-	font-size: 2em;
+	font-size: 1.75em;
 	color: #444444;
 	margin-block-start: 3rem;
 }
 
 h3 {
 	font-weight: 500;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	color: #444444;
 	margin-block-start: 2rem;
 }
