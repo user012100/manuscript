@@ -162,15 +162,6 @@ ul {
 }
 
 /* emphasis */
-em.underline {
-	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration#values */
-	text-decoration-line: underline;
-	text-decoration-thickness: 2px;
-	text-decoration-color: #ED6A5E;
-	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset */
-	text-underline-offset: 0.125rem;
-}
-
 em.numbers {
 	background-color: #b9c6ff;
 	padding: 0.075rem;
