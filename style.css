@@ -65,6 +65,7 @@ aside {
 	margin-inline-start: 10vw;
 	margin-inline-end: 10vw;
 	text-align: end;
+	z-index: 1;
 
 	p {
 		font-size: 0.8em;
@@ -200,30 +201,35 @@ footer {
 	}
 
 	p:nth-child(1) {
-		margin-inline-end: 18vw;
+		margin-inline-end: 21vw;
 	}
-
 }
 
 /* appendix */
 details {
 	margin-inline-start: 10vw;
-	display: inline-block;
+	display: flex;
 
 	span {
-		display: inline-block;
+		display: flex;
+		gap: 5vw;
 	}
 }
 
 summary {
 	color: #FFFFFF;
 	background-color: #F3BC06;
-	display: inline-block;
+	margin-inline-end: 5vw;
 }
 
 summary:hover {
 	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 	cursor: pointer;
 	color: #F3BC06;
+	background-color: #FAFAFA;
+}
+
+summary:active {
+	color: #EAAC00;
 	background-color: #FAFAFA;
 }
