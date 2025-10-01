@@ -38,6 +38,7 @@ h2 {
 	font-weight: 500;
 	font-size: 1.75em;
 	color: #333333;
+	position: sticky;
 }
 
 h3 {
@@ -75,10 +76,10 @@ nav {
 	position: fixed;
 	top: 0;
 	right: 0;
-	margin-block-start: 5.5rem;
+	margin-block-start: 4.5rem;
 	margin-inline-end: 8vw;
 	text-align: end;
-	line-height: 3.05;
+	line-height: 4;
 }
 
 /* links */
@@ -90,6 +91,11 @@ a {
 }
 
 a:hover {
+	color: #F3BC06;
+	background-color: #FAFAFA;
+}
+
+a:active {
 	color: #EAAC00;
 	background-color: #FAFAFA;
 }
