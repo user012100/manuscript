@@ -211,7 +211,7 @@ details {
 	display: inline-block;
 
 	span {
-		margin-inline-end: 1rem;
+		display: inline-block;
 	}
 }
 
@@ -219,7 +219,6 @@ summary {
 	color: #FFFFFF;
 	background-color: #F3BC06;
 	display: inline-block;
-	margin-block-end: 1rem;
 }
 
 summary:hover {
