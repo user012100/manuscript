@@ -90,33 +90,6 @@ aside {
 	}
 }
 
-/* main text */
-main {
-	p {
-		margin-block-start: 2rem;
-		margin-inline-start: 22vw;
-		margin-inline-end: 22vw;
-		max-width: 40ch;
-		line-height: 1.75;
-	}
-}
-
-/* footer */
-footer {
-	margin-block-start: 2rem;
-	font-weight: 400;
-}
-
-summary {
-	color: #F3BC06;
-}
-
-summary:hover {
-	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
-	cursor: pointer;
-	color: #EAAC00;
-}
-
 /* navigation links */
 nav {
 	position: fixed;
@@ -145,6 +118,19 @@ a:hover {
 a:active {
 	color: #EAAC00;
 	background-color: #FAFAFA;
+}
+
+/* main text */
+main {
+	margin-block-end: 10rem;
+
+	p {
+		margin-block-start: 2rem;
+		margin-inline-start: 22vw;
+		margin-inline-end: 22vw;
+		max-width: 40ch;
+		line-height: 1.75;
+	}
 }
 
 /* lists */
@@ -197,4 +183,46 @@ em.fractions {
 
 .darker-blue {
 	color: #364CB1;
+}
+
+/* footer */
+footer {
+	margin-block-start: 2rem;
+	margin-block-end: 2rem;
+	font-weight: 400;
+
+	p {
+		position: absolute;
+		margin-inline-end: 8vw;
+		right: 0;
+	}
+
+	p:nth-child(1) {
+		margin-inline-end: 18vw;
+	}
+
+}
+
+/* appendix */
+details {
+	margin-inline-start: 10vw;
+	display: inline-block;
+
+	span {
+		margin-inline-end: 1rem;
+	}
+}
+
+summary {
+	color: #FFFFFF;
+	background-color: #F3BC06;
+	display: inline-block;
+	margin-block-end: 1rem;
+}
+
+summary:hover {
+	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
+	cursor: pointer;
+	color: #F3BC06;
+	background-color: #FAFAFA;
 }
