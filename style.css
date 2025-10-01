@@ -17,20 +17,20 @@ h1 {
 	font-weight: 700;
 	font-size: 4rem;
 	color: #B93026;
-	line-height: 1;
+	line-height: 1.05;
 	margin-block-start: 2.6rem;
 	margin-block-end: 2.5rem;
 
 	span:nth-child(1) {
-		margin-inline-start: 9vw;
-	}
-
-	span:nth-child(2) {
-		margin-inline-start: 18vw;
+		margin-inline-start: 10vw;
 	}
 
 	span:nth-child(3) {
-		margin-inline-start: 13.5vw;
+		margin-inline-start: 22vw;
+	}
+
+	span:nth-child(5) {
+		margin-inline-start: 16vw;
 	}
 }
 
@@ -39,21 +39,31 @@ h2 {
 	font-size: 1.75em;
 	color: #333333;
 	position: sticky;
-	margin-top: 4rem;
-	top: 4rem;
+	margin-block-start: 4rem;
+	padding-block-start: 1rem;
+	padding-block-end: 2rem;
+	margin-inline-start: 10vw;
+	margin-inline-end: 10vw;
+	top: 0;
+	/* background-color: #FAFAFA; */
 }
 
 h3 {
 	font-weight: 500;
 	font-size: 1.25rem;
 	color: #333333;
+	margin-inline-start: 19vw;
+	margin-inline-end: 19vw;
+	/* background-color: #FAFAFA; */
 }
 
 /* main text */
 main {
 	p {
 		margin-block-start: 2rem;
-		max-width: 60ch;
+		margin-inline-start: 16vw;
+		margin-inline-end: 16vw;
+		max-width: 45ch;
 	}
 }
 
@@ -82,6 +92,7 @@ nav {
 	margin-inline-end: 8vw;
 	text-align: end;
 	line-height: 4;
+	z-index: 1;
 }
 
 /* links */
@@ -106,7 +117,8 @@ a:active {
 ul {
 	margin-block-start: 2rem;
 	/* indentation */
-	padding-left: 4rem;
+	margin-inline-start: 18vw;
+	margin-inline-end: 16vw;
 }
 
 /* chapter and page number parenthicals */
