@@ -174,6 +174,10 @@ em.fractions {
 	font-weight: 100;
 }
 
+em.darker-blue {
+	font-weight: 400;
+}
+
 /* color-coded emphasis */
 .lighter-red {
 	color: #E93323;
