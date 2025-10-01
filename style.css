@@ -65,28 +65,39 @@ aside {
 	margin-inline-start: 10vw;
 	margin-inline-end: 10vw;
 	text-align: end;
+
+	p {
+		font-size: 0.8em;
+	}
+
 	.chapter {
 		font-weight: 500;
 		font-size: 1.75rem;
 		color: #B93026;
 	}
+
 	p:nth-child(1) {
-		margin-block-end: 6.8em;
+		margin-block-end: 8.8em;
 	}
+
 	p:nth-child(2) {
-		margin-block-end: 56em;
+		margin-block-end: 70.2em;
 	}
+
 	p:nth-child(3) {
-		margin-block-end: 72.6em;
+		margin-block-end: 91.2em;
 	}
+
 	p:nth-child(4) {
-		margin-block-end: 83em;
+		margin-block-end: 103.8em;
 	}
+
 	p:nth-child(5) {
-		margin-block-end: 77.6em;
+		margin-block-end: 97.7em;
 	}
+
 	p:nth-child(6) {
-		margin-block-end: 71.8em;
+		margin-block-end: 90em;
 	}
 }
 
