@@ -19,22 +19,19 @@ h1 {
 	font-size: 4rem;
 	color: #B93026;
 	line-height: 1.075;
-
-	span {
-		display: block;
-	}
+	margin-block-start: 2.6rem;
+	margin-block-end: 2.5rem;
 
 	span:nth-child(1) {
-		margin-top: 2.75rem;
-		margin-left: 8vw;
+		margin-inline-start: 8vw;
 	}
 
 	span:nth-child(2) {
-		margin-left: 16vw;
+		margin-inline-start: 16vw;
 	}
 
 	span:nth-child(3) {
-		margin-left: 12vw;
+		margin-inline-start: 12vw;
 	}
 }
 
@@ -72,6 +69,11 @@ summary:hover {
 	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 	cursor: pointer;
 	color: #EAAC00;
+}
+
+/* navigation links */
+nav {
+	position: absolute;
 }
 
 /* links */
