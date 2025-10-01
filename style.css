@@ -18,7 +18,7 @@ h1 {
 	font-size: 4rem;
 	color: #B93026;
 	line-height: 1.075;
-	margin-block-start: 3rem;
+	margin-block-start: 4.5rem;
 	margin-block-end: 4.5rem;
 
 	span:nth-child(1) {
@@ -36,13 +36,13 @@ h1 {
 
 h2 {
 	font-weight: 500;
-	font-size: 1.75em;
+	font-size: 1.75rem;
 	color: #333333;
 	position: sticky;
 	margin-block-start: 2rem;
 	padding-block-start: 1rem;
 	padding-block-end: 1rem;
-	margin-inline-start: 16vw;
+	padding-inline-start: 16vw;
 	margin-inline-end: 16vw;
 	top: 0;
 	/* background-color: #FAFAFA; */
@@ -58,6 +58,38 @@ h3 {
 	/* background-color: #FAFAFA; */
 }
 
+/* sidebar */
+aside {
+	position: absolute;
+	margin-block-start: 1rem;
+	margin-inline-start: 10vw;
+	margin-inline-end: 10vw;
+	text-align: end;
+	.chapter {
+		font-weight: 500;
+		font-size: 1.75rem;
+		color: #B93026;
+	}
+	p:nth-child(1) {
+		margin-block-end: 6.8em;
+	}
+	p:nth-child(2) {
+		margin-block-end: 56em;
+	}
+	p:nth-child(3) {
+		margin-block-end: 72.6em;
+	}
+	p:nth-child(4) {
+		margin-block-end: 83em;
+	}
+	p:nth-child(5) {
+		margin-block-end: 77.6em;
+	}
+	p:nth-child(6) {
+		margin-block-end: 71.8em;
+	}
+}
+
 /* main text */
 main {
 	p {
@@ -66,7 +98,6 @@ main {
 		margin-inline-end: 22vw;
 		max-width: 40ch;
 		line-height: 1.75;
-		
 	}
 }
 
@@ -133,12 +164,6 @@ ul {
 	}
 }
 
-/* chapter and page number parenthicals */
-.chapter {
-	font-weight: 500;
-	color: #B93026;
-}
-
 /* emphasis */
 em.underline {
 	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration#values */
@@ -150,7 +175,7 @@ em.underline {
 }
 
 em.numbers {
-	background-color: #acbbff;
+	background-color: #b9c6ff;
 	padding: 0.075rem;
 	font-size: 0.8rem;
 }
