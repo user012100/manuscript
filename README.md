@@ -64,3 +64,4 @@ Changes in this part, after [feedback #2](https://github.com/user012100/manuscri
 *   Changed the links' visual style to be highlighted.
 *   Replaced underlined emphasis in text with colored text.
 *   Changed `README.md` from HTML to Markdown.
+*   Used `display: flex` for contents of `details` element to display horizontally.
