@@ -17,9 +17,9 @@ h1 {
 	font-weight: 700;
 	font-size: 4rem;
 	color: #B93026;
-	line-height: 1.05;
-	margin-block-start: 2.6rem;
-	margin-block-end: 2.5rem;
+	line-height: 1.075;
+	margin-block-start: 3rem;
+	margin-block-end: 4.5rem;
 
 	span:nth-child(1) {
 		margin-inline-start: 10vw;
@@ -39,11 +39,11 @@ h2 {
 	font-size: 1.75em;
 	color: #333333;
 	position: sticky;
-	margin-block-start: 4rem;
+	margin-block-start: 2rem;
 	padding-block-start: 1rem;
-	padding-block-end: 2rem;
-	margin-inline-start: 10vw;
-	margin-inline-end: 10vw;
+	padding-block-end: 1rem;
+	margin-inline-start: 16vw;
+	margin-inline-end: 16vw;
 	top: 0;
 	/* background-color: #FAFAFA; */
 }
@@ -52,8 +52,9 @@ h3 {
 	font-weight: 500;
 	font-size: 1.25rem;
 	color: #333333;
-	margin-inline-start: 19vw;
-	margin-inline-end: 19vw;
+	margin-block-start: 2rem;
+	margin-inline-start: 22vw;
+	margin-inline-end: 22vw;
 	/* background-color: #FAFAFA; */
 }
 
@@ -61,9 +62,11 @@ h3 {
 main {
 	p {
 		margin-block-start: 2rem;
-		margin-inline-start: 16vw;
-		margin-inline-end: 16vw;
-		max-width: 45ch;
+		margin-inline-start: 22vw;
+		margin-inline-end: 22vw;
+		max-width: 40ch;
+		line-height: 1.75;
+		
 	}
 }
 
@@ -88,7 +91,7 @@ nav {
 	position: fixed;
 	top: 0;
 	right: 0;
-	margin-block-start: 4.5rem;
+	margin-block-start: 3.33rem;
 	margin-inline-end: 8vw;
 	text-align: end;
 	line-height: 4;
@@ -117,8 +120,17 @@ a:active {
 ul {
 	margin-block-start: 2rem;
 	/* indentation */
-	margin-inline-start: 18vw;
-	margin-inline-end: 16vw;
+	margin-inline-start: 28vw;
+	margin-inline-end: 28vw;
+	line-height: 1.75;
+	max-width: 30ch;
+	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style */
+	list-style: square;
+
+	/* again from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/::marker */
+	::marker {
+		color: #364CB1;
+	}
 }
 
 /* chapter and page number parenthicals */
@@ -138,9 +150,9 @@ em.underline {
 }
 
 em.numbers {
-	background-color: #C9D0F2;
-	padding: 0.05em;
-	font-size: 0.8em;
+	background-color: #acbbff;
+	padding: 0.075rem;
+	font-size: 0.8rem;
 }
 
 em.fractions {
