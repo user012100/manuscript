@@ -9,7 +9,7 @@
 body {
 	font-family: "Outfit", sans-serif;
 	font-weight: 300;
-	background-color: #FAFAFA;
+	background-color: #FBFAF5;
 }
 
 /* headings */
@@ -45,7 +45,7 @@ h2 {
 	padding-inline-start: 16vw;
 	margin-inline-end: 16vw;
 	top: 0;
-	/* background-color: #FAFAFA; */
+	background-color: #FBFAF5;
 }
 
 h3 {
@@ -55,7 +55,6 @@ h3 {
 	margin-block-start: 2rem;
 	margin-inline-start: 22vw;
 	margin-inline-end: 22vw;
-	/* background-color: #FAFAFA; */
 }
 
 /* sidebar */
@@ -124,12 +123,12 @@ a {
 
 a:hover {
 	color: #F3BC06;
-	background-color: #FAFAFA;
+	background-color: #FBFAF5;
 }
 
 a:active {
 	color: #EAAC00;
-	background-color: #FAFAFA;
+	background-color: #FBFAF5;
 }
 
 /* main text */
@@ -226,10 +225,10 @@ summary:hover {
 	/* from MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/cursor */
 	cursor: pointer;
 	color: #F3BC06;
-	background-color: #FAFAFA;
+	background-color: #FBFAF5;
 }
 
 summary:active {
 	color: #EAAC00;
-	background-color: #FAFAFA;
+	background-color: #FBFAF5;
 }
