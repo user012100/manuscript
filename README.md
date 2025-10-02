@@ -56,10 +56,10 @@ Changes in this part, after [feedback #2](https://github.com/user012100/manuscri
 
 *   Changed `:root` font size to `133%`.
 *   Removed redundant `em` tags.
-*   Added margins and padding to all semantic elements with relative units using `margin-block`, `margin-inline`, `padding-block`, `padding-inline`, etc.
+*   Added margins and padding to all semantic elements with relative units like `em`, `rem`, `vw`, using `margin-block`, `margin-inline`, `padding-block`, `padding-inline`, etc.
 *   Added `span` and `br` tags to `h1` to separate lines using `span:nth-child()`.
 *   Made `nav` style `display: fixed`.
-*   Adjusted `line-height`for all text elements like `p`, `aside p`, etc.
+*   Adjusted `line-height` for all text elements like `p`, `aside p`, etc.
 *   Changed `footer` layout to display items horizontally.
 *   Changed the links' visual style to be highlighted.
 *   Replaced underlined emphasis in text with colored text.
