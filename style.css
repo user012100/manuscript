@@ -174,13 +174,15 @@ em.fractions {
 	font-weight: 100;
 }
 
+/* paragraph and word highlights */
 em.lighter-red {
 	font-weight: 350;
 }
 
 em.darker-blue {
-	font-weight: 350;
+	font-weight: 400;
 }
+
 /* color-coded emphasis */
 .lighter-red {
 	color: #E93323;
