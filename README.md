@@ -1,4 +1,4 @@
-# [Project 1: Manuscript](https://user012100.github.io/manuscript/)
+# [Typography & Interaction Project 1: Manuscript](https://user012100.github.io/manuscript/)
 
 A project responding to [Chapter 16](https://archive.org/details/interaction-of-color-50th-anniversary-edition/page/38/mode/2up) of Interaction of Color by Josef Albers, involving typesetting and replying to the text as a web page.
 
